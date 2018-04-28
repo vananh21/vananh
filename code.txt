@@ -1,0 +1,31 @@
+﻿<HTML>
+<HEAD> <TITLE> > GIỚI THIỆU BẢN THÂN
+</TITLE> </HEAD>
+<BODY Background="http://imageshack.com/a/img923/5856/QKrtsW.jpg" />
+<BODY> <Font size=8> <Center> 
+Tên tôi là Đào Vân Anh </Font> </Center>
+<P> <Font size =5> <Center>
+<P> </P>
+Chào mừng bạn đến với website của tôi <Br> 
+</P> </Font> </Center>
+ <Center>
+<H3> <B> THÔNG TIN CÁ NHÂN  </H3> </B>                                                                                              
+HỌ VÀ TÊN : Đào Vân Anh <Br>                                        
+NGÀY SINH : 30/03/1997  <Br>                                                                      
+QUÊ QUÁN : Hà Nội    <Br>                                                                        
+ĐỊA CHỈ :128C Đại La  <Br>   
+EMAIL: vananh8130@gmail.com <Br>
+TRƯỜNG: Học Viện Ngân Hàng  <Br>
+KHOA : Hệ thống thông tin quản lý <Br>    
+SỞ THÍCH: Thích mạo hiểm,chơi thể thao và đi du lịch cùng bạn bè.<Br>                                                                                    
+<img src="http://imageshack.com/a/img924/8200/0Cp3y1.jpg" /Width="250" Height="180"Alt=“Đây là tôi”>         
+</Center> 
+ <Center>                                                                            
+<H3> <B> CÁC MỐC THỜI GIAN </H3> </B>
+  Năm 2003 Học tại trường tiểu học Đồng Tâm <Br>
+  Năm 2008: Học cấp 2 tại trường THCS Ngô Gia Tự <Br>
+  Năm 2012: Học cấp 3 tại trường THPT Thăng Long <Br>
+  Năm 2015: Học đại học tại Học Viện Ngân Hàng <Br>
+</Center>
+</BODY>
+</HTML>
