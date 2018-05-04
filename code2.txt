@@ -1,0 +1,146 @@
+﻿BÀI 1:
+<HTML>
+<HEAD>
+<TITLE> BÀI TẬP 1 </TITLE>
+</HEAD>
+<BODY>
+<TABLE> <CAPTION>  </CAPTION>
+<TR VAlign=Middle Align=Center BgColor="Lime">
+<TH ColSpan=2 Width=300> Fresh Fruits </TH>
+</TR>
+<TR Align=Center >
+<TH RowSpan=2  Width=200> It has long been known that a diet that includes at least a few servings of fresh fruit every day will help keep you healthy,fit and trim </TH>
+<TH RowSpan=2  Width=100> <img src="http://imageshack.com/a/img922/1687/m8azV5.jpg"/Width="250" Height="180">  </TH>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+BÀI 2:
+<HTML>
+<HEAD>
+<TITLE> BT2 </TITLE>
+</HEAD>
+<BODY>
+<P align=center> 
+<TABLE Border=1  CellSpacing=0 Width=650 >
+<Caption >
+ </Caption>
+<TR VAlign=Middle Align=Center BgColor="aqua" >
+<TH ColSpan=6 Width=350> My tech stock picks </TH>
+</TR>
+<TR Align=Center >
+<TH Width=100> NAME  </TH>
+<TH Width=50> SYMBOL </TH>
+<TH Width=50> CURRENT </TH>
+<TH Width=50> 52WK HI </TH>
+<TH Width=50>  52WK LO </TH>
+<TH Width=50> P/E RATIO </TH>
+</TR>
+<TR Align=Center BgColor="aqua">
+<TD Align="Left"> Microsoft </TD>
+<TD> MSFT </TD>
+<TD> 86-3/8 </TD>
+<TD> 119-15/16 </TD>
+<TD> 75-1/2 </TD>
+<TD> 56.09 </TD>
+</TR>
+<TR Align=Center>
+<TD Align="Left"> Cisco Systems </TD>
+<TD> CSCO </TD>
+<TD> 72-1/8  </TD>
+<TD> 82 </TD>
+<TD> 24-13/16 </TD>
+<TD> 400.69 </TD>
+</TR>
+<TR Align=Center BgColor="aqua">
+<TD Align="Left"> America Online </TD>
+<TD> AOL </TD>
+<TD> 63 </TD>
+<TD> 95-13/16 </TD>
+<TD> 38-15/32 </TD>
+<TD> 350.00 </TD>
+</TR>
+<TR Align=Center>
+<TD Align="Left"> Qwest Communications </TD>
+<TD> Q </TD>
+<TD> 44-7/16 </TD>
+<TD> 66 </TD>
+<TD> 25-3/4 </TD>
+<TD> 74.06  </TD>
+</TR>
+<TR Align=Center BgColor="aqua" >
+<TD Align="Left"> Dell Computers </TD>
+<TD> DELL </TD>
+<TD> 53-59/64 </TD>
+<TD> 59-11/16 </TD>
+<TD> 31-3/8 </TD>
+<TD> 86.97 </TD>
+</TR>
+</Table> </P>
+<P align=center > <A HREF ="BT2.html" > Quay lại trang trước </A> </P>
+</BODY>
+</HTML>
+
+
+BÀI 4:
+<HTML>
+<HEAD>
+<TITLE> BÀI TẬP </TITLE>
+</HEAD>
+<BODY>
+<TABLE> <CAPTION>  </CAPTION>
+<TR VAlign=Middle Align=Center BgColor="Lime">
+<TH ColSpan=3 Width=300> Top </TH>
+</TR>
+<TR Align=Center BgColor="Lime">
+<TH RowSpan=2  Width=100> way left   </TH>
+<TH Width=100> middle up </TH>
+<TH RowSpan=2 Width= 100 > way right </TH>
+</TR>
+<TR Align=Center BgColor="Lime">
+<TH Width =100> middle down </TH>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+BÀI 5:
+<HTML>
+<HEAD>
+<TITLE> BÀI TẬP 5 </TITLE>
+</HEAD>
+<BODY>
+<TABLE> <CAPTION>  </CAPTION>
+<input type="button"  value="Home"> <br>
+<input type="button" value="Email"> <br>
+<input type="button"  value="Links"> <br>
+</TABLE>
+</BODY>
+</HTML>
+
+
+BÀI 6:	
+<html>
+<body>
+<Form  action="">
+<h3 align="left"> Create a Profile </h3>
+First Name <input type="text" size="40"> <BR>
+Last Name <input type="text" size="40" > </BR>
+Date of Birth:
+<input type="number"  value="month" min="1" max="12"> 
+<input type="number"  value="day" min="1" max="31"> 
+<input type="number" value="year" min="1980" max="2000" > 
+<br>
+Gender: 
+<input type="radio" value="1" name="phai" checked >  Male
+<input type="radio" value="2" name="phai" > Female <br>
+<input type="button" value="SAVE" > 
+</Form>
+<Strong> </Strong>
+</body>
+</html>
+
