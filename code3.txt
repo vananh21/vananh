@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 20px;
+    text-align: center;
+   background-color:#ebccd1;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        background-color:#b85857;
+        padding: 10px;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }     
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #b85857;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color:#aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color:white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <h1>My Website</h1>
+   
+</div>
+
+<div class="topnav">
+    <a href="#">Trang chủ</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Liên hệ</a>
+  </div>
+  
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h5> March 8, 2018</h5>
+      <img src="image/anh13.jpg" style="width:100%">
+      <p>DUY NHẤT 1 NGÀY HÔM NAY - XẢ 20% TOÀN BỘ SÁCH‼️ <br>
+        🔊Nhân dịp kỷ niệm ngày quốc tế Phụ Nữ 8/3<br>
+        Sách Y Dược Minh Ngọc triển khai SALE tri ân quý khách hàng.<br>
+        🎁 Các bạn sẽ được sở hữu sách Y giá RẺ NHẤT VIỆT NAM chỉ với 2 bước đơn giản sau: <br>
+        👉Bước 1: Like và share bài viết này ở chế độ Công khai <br>
+        👉Bước 2: Comment tên sách + số lượng và Tag ít nhất 1 bạn tham gia <br>
+        </p>
+        <div class="w3-row">
+            <div class="w3-col m4 w3-hide-small">
+              <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">5</span></span></p>
+            </div>
+          </div>
+    
+      </div>
+    <div class="card">
+      <h5> March 1, 2018</h5>
+      <img src="image/anh14.jpg" style="width:100%">
+      <p>Để yên cho bác sĩ 'Hiền' - cuốn sách mới tập hợp các câu chuyện đời, chuyện nghề qua giọng văn nhiều cung bậc cảm xúc, sắc sảo, tinh tế, thâm thúy của bác sĩ Ngô Đức Hùng với nghề, với đời. <br>
+      [Free Cuối Tuần] <br>
+      👉Tặng 20 cuốn sách “Để Yên Cho Bác Sĩ Hiền” cho 20 bạn Like và Share bài viết này sớm nhất <br> </p>
+      <div class="w3-row">
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">10</span></span></p>
+        </div>
+      </div>
+    </div>
+
+    <br> <h1> Giới thiệu sản phẩm </h1> 
+    <div class="grid-container">
+        <div class="grid-item"><img src="image/anh1.jpg"width="150" height="200"><br>
+            "" HÓA DƯỢC” – TẬP 1 (Sách đào tạo dược sĩ đại học) <br>
+            ✔️Chủ biên: PGS. TS. Trần Đức Hậu <br>
+            ✔️NXB: Bộ Y Tế, ĐH Dược Hà Nội, NXB Y Học <br>
+            ❌Giá bán: 79.000vnd <br></div>
+            <div class="grid-item"><img src="image/anh2.jpg" width="150" height="200"><br>
+                ”100 case lâm sàng y khoa” - P.John Rees <br>
+                👉Giá: 125k <br>
+                </div>
+        <div class="grid-item"><img src="image/anh3.jpg" width="150" height="200"><br>
+            Bộ Giải Phẫu của PGS.TS. Phạm Đăng Diệu <br>
+            (Sách gốc NXB, có màu) <br>
+            👉Đầu - Mặt - Cổ: 145k <br> </div>  
+        <div class="grid-item"><img src="image/anh4.jpg" width="150" height="200"><br>
+            Tai Mũi Họng (BSĐK) – Bộ Y Tế #65k <br>
+            ✔️Chủ biên: PGS. TS. Phạm Khánh Hòa <br>
+            ✔️NXB: Bộ Y Tế, ĐH Y Hà Nội, NXB Giáo Dục <br>
+            ✔️Năm xuất bản: 2010 <br>
+            ✔️Giá: 65k <br> </div>
+        <div class="grid-item"><img src="image/anh5.jpg" width="150" height="200"><br>
+                [Cẩm Nang Cập Nhật Và Điều Trị Bệnh Nội Khoa] <br>
+                👉Phiên bản mới 2018 <br>
+                👉Diện mạo mới đầy sức sống  <br>
+                👉Giá bán: 130k/cuốn <br>
+                </div>
+        <div class="grid-item"><img src="image/anh11.jpg" width="150" height="200"><br>
+            [Trích Yếu Hướng Dẫn Điều Trị Kháng Sinh Theo Kinh Nghiệm] <br>
+            👉Tác giả: PGS.TS Nguyễn Đạt Anh <br>
+            👉Xuất bản: 2016 (NXB Y Học) <br>
+            👉Bìa Mềm, 600 trang <br>
+            ✔️Giá bìa 275k <br>
+            ✔️Giá bán: 270k <br>
+            </div>  
+            
+            <div class="grid-item"><img src="image/anh7.jpg" width="150" height="200"><br>
+            Sách "Điện tâm đồ từ cơ bản tới nâng cao" của Gs. Klaus v. Olshausen <br>
+            ✔️Dịch bởi: TS.BS Lê Minh Khôi <br>
+            ✔️Năm Xuất bản: 2016 <br>
+            ✔️Nhà Xuất bản: Y Học <br>
+            ✔️Chất liệu: giấy bóng Couche 100% màu <br>
+            ❌Giá bìa: 350k <br>
+            ❌Giá bán: 335k <br>
+            </div>
+            <div class="grid-item"><img src="image/anh8.jpg" width="150" height="200"><br>
+                Cấp Cứu Ngoại Khoa Nhi Khoa – ĐH Y Hà Nội <br>
+                ❌Tác giả: Đặng Hạnh Đệ chủ biên,Trần Ngọc Bích <br>
+                ❌Nhà Xuất bản: Y học <br>
+                ❌Giá bán: 55.000đ  <br>
+            </div>        
+            <div class="grid-item"><img src="image/anh9.jpg" width="150" height="200"><br>
+            Bài Giảng Huyết Học - Truyền Máu (Sau Đại Học) <br>
+            ❌Tác giả: NXB Y học; GS.TSKH Đỗ Trung Phấn (Chủ biên) <br>
+            ❌Năm xuất bản: 2014; Số trang: 408 trang <br>
+            ❌Giá bán: 105.000 VNĐ <br>
+            </div>
+            <div class="grid-item"><img src="image/anh10.jpg" width="150" height="200"><br>
+            SỔ TAY SẢN PHỤ KHOA  <br>
+            ✔️Tác giả: Errol R. Norwitz & John O. Schorge <br>
+            ✔️Biên dịch: Nguyễn Duy Tài, MD <br>
+            ✔️Số trang: 180 trang <br>
+            ✔️Kích thước: 22 x 27.6 cm <br>
+            ✔️Giá bán: 225.000 VNĐ <br>
+        </div> 
+    </div>
+    
+      
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <img src="image/anh12.jpg" style="width:100%">
+      <h2>Giới thiệu</h2>
+      <p>Trang chuyên cung cấp Sách Y-Dược,tài liệu Y khoa cho các bạn sinh viên <br>
+         Cam kết sách IN GỐC của NXB. Sách 100% giống ảnh, bản đẹp, mực in rõ nét, có màu <br>
+      </p>
+    </div>
+    <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding">
+          <h2>Sản phẩm mới</h2>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="image/anh1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"> "HÓA DƯỢC" – TẬP 1</span><br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="image/anh2.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"> ”100 case lâm sàng y khoa” - P.John Rees</span><br>
+          </li> 
+          <li class="w3-padding-16">
+            <img src="image/anh6.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">"Để yên cho bác sĩ hiền"-BS Ngô Đức Hùng</span><br>
+          </li>   
+          <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+            <img src="image/anh7.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large" > Sách "Điện tâm đồ" của Gs. Klaus v. Olshausen</span><br> 
+    
+          </li>  
+        </ul>
+      </div>
+      <hr>   
+      <div class="card">
+        <h3>Cộng đồng</h3>
+ <p> Hiệu sách tại Hà Nội <br>
+    4,9 ★ ★ ★ ★ ★ <br>
+    Luôn mở cửa <br>
+</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
