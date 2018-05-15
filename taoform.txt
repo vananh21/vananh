@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function validateForm(){
+    var LastName = document.forms["myForm"]["LastName"].value;
+    if (LastName == "") {
+        alert("Họ của bạn không được để trống");
+        return false;
+    }
+    var FirstName = document.forms["myForm"]["FirstName"].value;
+    if (FirstName == "") {
+        alert(" Tên của bạn không được để trống");
+        return false;
+    }
+    var Username = document.forms["myForm"]["Username"].value;
+    if (Username == "") {
+        alert("Username không được để trống");
+        return false;
+    }
+    var Password = document.forms["myForm"]["Password"].value;
+    if (Password == "") {
+        alert("Password không được để trống");
+        return false;
+    }
+    var Password = document.forms["myForm"]["Password"].value;
+    if (Password.length < 6) {
+        alert("Password phải có từ 6 ký tự");
+        return false;
+    }
+    var confirm_Pass = document.forms["myForm"]["confirm_Pass"].value;
+    if (confirm_Pass == ""||confirm_Pass!==Password) {
+        alert("Password nhập lại không đúng ");
+        return false;
+    
+    }
+    var Email = document.forms["myForm"]["Email"].value;
+    if (Email == ""){
+        alert("Email không được để trống ");
+        return false;
+    }
+    var reg_mail = /^[A-Za-z0-9]+([_\.\-]?[A-Za-z0-9])*@[A-Za-z0-9]+([\.\-]?[A-Za-z0-9]+)*(\.[A-Za-z]+)+$/;
+    if(reg_mail.test(Email) == false){
+         alert("Email không hợp lệ. Yêu cầu nhập lại");
+     return false;
+     }
+
+     
+   
+}
+</script>
+</head>
+<body>
+
+        <form name="myForm" action="https://github.com/"
+        onsubmit="return validateForm()" method="post">
+        <p>
+                <label for="LastName">Họ của bạn(*)</label>
+               <input class="text" type="text" name="LastName" id="LastName" /></p>
+            <p>
+                <label for="FirstName">Tên của bạn(*)</label>
+
+               <input class="text" type="text" name="FirstName" id="FirstName" /></p>
+            
+                   <p>
+                     <label for="Username">Username(*)</label>
+                     <input class="text" type="text" name="Username" id="Username" /></p>
+                  <p>
+                     <label for="Password">Password(*)</label>
+                    <input class="text" type="password" name="Password" id="Password" /></p>
+                  <p>
+                     <label for="confirm_Pass">Nhập lại Password(*)</label>
+                     <input class="text" type="password" name="confirm_Pass" id="confirm_Pass" /></p>
+                  <p>
+                     <label for="Email">Email(*)</label>
+                     <input class="text" type="text" name="Email" id="Email" /></p>
+                  <p>
+                    <label id="bottom">submit</label>
+                    <input type="Submit" name="action" id="Submit" value="Đăng ký" /></p>
+                            
+                
+
+</form>
+
+</body>
+</html>
